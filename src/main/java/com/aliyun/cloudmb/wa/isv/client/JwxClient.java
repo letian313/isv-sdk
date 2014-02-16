@@ -12,10 +12,10 @@ import org.slf4j.LoggerFactory;
 
 import com.aliyun.cloudmb.wa.isv.common.APIResult;
 import com.aliyun.cloudmb.wa.isv.common.HttpService;
-import com.aliyun.cloudmb.wa.isv.model.JwxAppInfo;
-import com.aliyun.cloudmb.wa.isv.model.JwxUserInfo;
-import com.aliyun.cloudmb.wa.isv.param.QueryAppParam;
-import com.aliyun.cloudmb.wa.isv.param.QueryUserParam;
+import com.aliyun.cloudmb.wa.isv.param.out.QueryAppParam;
+import com.aliyun.cloudmb.wa.isv.param.out.QueryUserParam;
+import com.aliyun.cloudmb.wa.isv.result.JwxAppInfo;
+import com.aliyun.cloudmb.wa.isv.result.JwxUserInfo;
 import com.aliyun.cloudmb.wa.isv.util.ConfigHolder;
 
 /**

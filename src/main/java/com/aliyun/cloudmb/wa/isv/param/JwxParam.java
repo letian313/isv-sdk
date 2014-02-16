@@ -26,7 +26,7 @@ public class JwxParam implements Serializable {
     /**
      * 时间戳
      */
-    protected Long            time;
+    protected long            time;
 
     /**
      * 参数签名
@@ -41,11 +41,11 @@ public class JwxParam implements Serializable {
         this.sign = sign;
     }
 
-    public Long getTime() {
+    public long getTime() {
         return time;
     }
 
-    public void setTime(Long time) {
+    public void setTime(long time) {
         this.time = time;
     }
 
